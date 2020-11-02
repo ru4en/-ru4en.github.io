@@ -1,0 +1,190 @@
+
+<html>
+<head>
+  <title>ruben</title>
+  <meta content="utf-8" http-equiv="encoding">
+  <meta name="description" content="Hi Welcome to my Website. im Ruben and this website is my portfolio with all the projects i have or an working on. hope you like it!">
+  <meta name="keywords" content="Ruben, Joseph, Lopes, ru4en">
+  <meta name="author" content="Ruben Joseph Lopes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="./images/icon.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+      defer></script>
+  <script src="javascript/master.js" charset="utf-8"></script>
+</head>
+<body>
+  <div>
+    <nav id="navbar" class="navbar">
+      <button id="MenuButton" onclick="CallMenu()">
+        <div class="menu-btn" id="menu-btn">
+          <div id="line1" class="line1"></div>
+          <div id="line2" class="line2"></div>
+          <div id="line3" class="line3"></div>
+        </div>
+      </button>
+      <div id="navDropDown" class="navDropDown showMenu">
+        <ul>
+          <li><a class="menuitm">About Me</a></li>
+          <li><a class="menuitm">CV</a></li>
+          <li><a class="menuitm" href="Projects/HCI/Projects.html">Projects</a></li>
+          <img id="logo" class="logo" src="images/logo.png" alt="">
+          <li><a class="menuitm">Downloads And Reffrences</a></li>
+          <li><a class="menuitm">Contact Me</a></li>
+        </ul>
+          <div class="socials">
+            <div class="instagram"></div>
+            <div class="twitter"></div>
+            <div class="linkedin"></div>
+            <div class="github"></div>
+          </div>
+      </div>
+    </nav>
+  </div>
+  <main>
+  <div class="welcomeDiv indexDivs">
+	  <img id="profile">
+    <h2 class="anim-typewriter typeLine1">HI, Im Ruben!</h2>
+     <p>welcome to my website. <br>here you can find my projects and learn a bit or two about what i do. </p></div>
+  <div id="WHOAMI" class="indexDivs">
+    <h1>WHOAMI</h1>
+    <h3></h3>
+    <p>I am A creative and practical thinker who loves problem-solving and is determined to get the given task completed. I have created this website to show the projects I have worked on and to share a bit about me.</p>
+    <br>
+    <p>I have a passion for Designing, programming, and testing things from websites to computer applications. My skills involve building Websites, web apps development, and software development. I have taught myself a few programming languages such as Python, JavaScript, BASH, and C++. besides programming languages is also capable of working with creative programs like Adobe Photoshop, Lightroom, and After Effects.</p>
+  </div>
+  <div id="Projects" class="indexDivs">
+    <h1 >The Projects I Have Worked On</h1>
+    <p>im a </p>
+    <div class="menu">
+      <div class="menuItems" id="pro2">
+        <h4>HCI CaponCave</h4>
+      </div>
+      <div class="menuItems" id="pro3">
+        <h4>WebDev College assignment(Hot Beans)</h4>
+      </div>
+      <div class="menuItems" id="pro4">
+        <h4>Home & Deco</h4>
+      </div>
+      <div class="menuItems" id="pro5">
+        <h4>WebDev College assignment(Hot Beans)</h4>
+      </div>
+      <div class="menuItems" id="pro6">
+        <h4>Help</h4>
+    </div>
+  </div>
+  </div>
+  <div id="Abilities" class="indexDivs">
+    <h1>My Abilities include</h1>
+    <table>
+  <tr>
+    <th>Skills</th>
+    <th>Experance</th>
+  </tr>
+  <tr>
+    <td>HTML & CSS</td>
+    <td>9/10</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>7/10</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>8/10</td>
+  </tr>
+  <tr>
+    <td>C++</td>
+    <td>5/10</td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>9/10</td>
+  </tr>
+  <tr>
+    <td>Shell Scripting(BASH)</td>
+    <td>8/10</td>
+  </tr>
+  <tr>
+    <td>Microsoft Windows IOT</td>
+    <td>8/10</td>
+  </tr>
+  <tr>
+    <td>Adobe Photoshop</td>
+    <td>8/10</td>
+  </tr>
+  <tr>
+    <td>Adobe Illastrator</td>
+    <td>8/10</td>
+  </tr>
+  <tr>
+    <td>Adobe LightRoom</td>
+    <td>8/10</td>
+  </tr>
+</table>
+    <div class="AbiList">
+    </div>
+  </div>
+  <div id="Contact" class="indexDivs">
+    <h1>Contact Me at</h1>
+    <table>
+  <tr>
+    <td>phone Number: </td>
+    <td>+44 (0) 7544044322</td>
+  </tr>
+  <tr>
+    <td>Email: </td>
+    <td>ru4en@icloud.com</td>
+  </tr>
+</table>
+<div id="map"></div>
+<h1>Send Me A Message!</h1>
+<div class="applyForm">
+  <form id="applyForm" method="post" name="ContactForm" action="" onsubmit="ValidateContactForm()">
+              <label for="fName">Name:</label><br>
+              <input class="input-box" type="text" id="fName" name="fName" placeholder="Ruben"><br>
+              <label for="email">Email:</label><br>
+              <input class="input-box" type="text" id="email" name="email" placeholder="ruben@email.com"><br>
+              <label for="email">Note:</label><br>
+              <textarea class="note" type="text" id="mesage" name="msg" rows="10" cols="40" placeholder="note..."></textarea><br>
+              <input class="formButton" type="submit" value="Submit" onsubmit="ValidateContactForm">
+              <input class="formButton" type="reset" value="Reset">
+            </form>
+</div>
+  </div>
+  <button class="scroollerSwitch2" id="scroollerSwitch2" onclick="CallBookmark()">
+  <img class="bookMark" src="icons/bookmark.svg" alt=""></button>
+  <div id="Scrooller" class="Scrooller">
+    <a class="bookMark" href="#WHOAMI"><div id="scro1">
+      <p>WHOAMI</p>
+    </div></a>
+    <a class="bookMark" href="#Projects"><div id="scro2">
+      <p>Projects</p>
+    </div></a>
+    <a class="bookMark" href="#Abilities"><div id="scro3">
+      <p>Abilities</p>
+    </div></a>
+    <a class="bookMark" href="#Contact"><div id="scro4">
+      <p>Contact</p>
+    </div></a>
+    <button class="scroollerSwitch" id="scroollerSwitch2" onclick="xBookmark()">Cancil</button>
+  </div>
+  </main>
+  <footer>
+    <div class="footInfo">
+      <p>© 2020 ru4en.live </p>
+      <p><a> Site Map </a></p>
+      <p>Made By Ruben.</p>
+    </div>
+      <div class="footSoc my-element">
+        <div class="instagram"></div>
+        <div class="twitter"></div>
+        <div class="linkedin"></div>
+        <div class="github"></div>
+      </div>
+  </footer>
+</body>
+</html>
